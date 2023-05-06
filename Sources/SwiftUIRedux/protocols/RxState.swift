@@ -8,4 +8,5 @@
 
 import Foundation
 
-public protocol RxState {}
+/// 可以将自身转换为外部表示的类型协议
+public protocol RxState: Codable {}
